@@ -1,11 +1,10 @@
 function mutation(arr) {
-    let a = arr[0]
-    let b = arr[1]
-    const re = new RegExp( b,"gi")
-    var n = re.test(a);
-    console.log(n)
-    return n;
-}
-
-mutation(["Alien", "line"]);
+    var test = arr[1].toLowerCase();
+    var target = arr[0].toLowerCase();
+    for (var i = 0; i < test.length; i++) {
+      if (target.indexOf(test[i]) < 0) return false;
+    }
+    return true;
+  }
+  mutation(["hello", "hey"])
 
