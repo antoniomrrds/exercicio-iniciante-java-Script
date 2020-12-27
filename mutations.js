@@ -5,6 +5,7 @@ function mutation(arr) {
     for (let index = 0; index < a.length; index++) {
         let re = new RegExp(a[index], "gi")
         result = arr[0].match(re)
+        
         if (result == false || result == null) {
             return resultGeral = false
         } else {
