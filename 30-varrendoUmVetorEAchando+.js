@@ -8,5 +8,5 @@ const maior = (acumulador, atual) => {
 const menor = (acumulador, atual) => {
     return acumulador < atual ? acumulador : atual
 }
-const acumulador = vetor
-console.log(`O maior Número dentro do vetor é ${acumulador.reduce(maior)} O Menor Número dentro do vetor é ${acumulador.reduce(menor)}`)
+
+console.log(`O maior Número dentro do vetor é ${vetor.reduce(maior)} O Menor Número dentro do vetor é ${vetor.reduce(menor)}`)
