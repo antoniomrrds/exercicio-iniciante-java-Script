@@ -8,4 +8,4 @@ function NumeroFatorial(n) {
 
 
 }
-console.log(NumeroFatorial(r) )
+console.log(NumeroFatorial(1) )
