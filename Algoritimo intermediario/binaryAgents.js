@@ -1,0 +1,1 @@
+return binary.map(elem => String.fromCharCode(parseInt(elem, 2))).join("");
